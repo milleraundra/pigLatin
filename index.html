@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
 
@@ -11,21 +11,23 @@
   </head>
   <body>
     <div class="container">
+      <h1>Translate to Pig Latin!</h1>
+      <p>Enter words or sentences below and see what they say in pig latin!</p>
       <form id="pigLatin">
         <div class="form-group">
           <label for="message">Enter your message:</label>
           <input id="sentence" type="text" class="form-control">                 </div>
-          <button type="submit" class="btn btn-danger">Encrypt this message!</button>
+          <button type="submit" class="btn btn-danger">etgay igpay atinlay</button>
       </form>
-    </div>
 
-    <div id="result">
-      <p>
-        Your secret message is:
-      </p>
-      <p>
-        <span class="translated"></span>
-      </p>
+      <div id="result">
+        <p>
+          Translation:
+        </p>
+        <p>
+          <span class="translated"></span>
+        </p>
+      </div>
     </div>
   </body>
 </html>
